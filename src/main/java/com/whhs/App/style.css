@@ -1,0 +1,12 @@
+@font-face {
+  src: url("util/Fonts/Regular/font-regular.otf");
+}
+
+.label {
+  -fx-font-family: "Fela";
+}
+
+#my-button {
+  -fx-font-family: "Fela";
+  -fx-font-size: 20;
+}
