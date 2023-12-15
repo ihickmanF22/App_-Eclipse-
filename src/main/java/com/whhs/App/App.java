@@ -127,10 +127,7 @@ public class App extends Application {
 
 	 System.out.println(rand);
 
-	 Image cursorImage = new Image("file:system/fxgl/resources/fxgl_default_cursor.png");
-	 scene.setCursor(new ImageCursor(cursorImage));
 	 primaryStage.setTitle("Final Project " + version);
-	 primaryStage.getIcons().add(new Image("file:system/fxgl/resources/fxgl_icon.png"));
 	 primaryStage.setScene(scene);
 	 primaryStage.show();
 

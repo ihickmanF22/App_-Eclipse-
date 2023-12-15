@@ -100,27 +100,27 @@ public class FinalProject {
 		  int posL = 430;
 		  int posM = 350;
 
-		  overlayImage = new Image(getClass().getResource("util/Images/Overlay.png").toString());
+		  overlayImage = new Image(getClass().getResource("Images/Overlay.png").toString());
 		  overlayImageView = new ImageView(overlayImage);
-		  deathImage = new Image(getClass().getResource("util/Images/Death.gif").toString());
+		  deathImage = new Image(getClass().getResource("Images/Death.gif").toString());
 		  deathImageView = new ImageView(deathImage);
-		  foregroundImage = new Image(getClass().getResource("util/Images/Foreground.gif").toString());
+		  foregroundImage = new Image(getClass().getResource("Images/Foreground.gif").toString());
 		  foregroundImageView = new ImageView(foregroundImage);
-		  groundImage = new Image(getClass().getResource("util/Images/Ground.gif").toString());
+		  groundImage = new Image(getClass().getResource("Images/Ground.gif").toString());
 		  groundImageView = new ImageView(groundImage);
-		  backgroundImage = new Image(getClass().getResource("util/Images/Background.png").toString());
+		  backgroundImage = new Image(getClass().getResource("Images/Background.png").toString());
 		  backgroundImageView = new ImageView(backgroundImage);
-		  settingsImage = new Image(getClass().getResource("util/Images/Settings.png").toString());
+		  settingsImage = new Image(getClass().getResource("Images/Settings.png").toString());
 		  settingsImageView = new ImageView(settingsImage);
-		  backImage = new Image(getClass().getResource("util/Images/Back.png").toString());
+		  backImage = new Image(getClass().getResource("Images/Back.png").toString());
 		  backImageView = new ImageView(backImage);
-		  tempImage = new Image(getClass().getResource("util/Images/Interface.png").toString());
+		  tempImage = new Image(getClass().getResource("Images/Interface.png").toString());
 		  tempImageView = new ImageView(tempImage);
-		  aImage = new Image(getClass().getResource("util/Images/obstacle1.png").toString());
+		  aImage = new Image(getClass().getResource("Images/obstacle1.png").toString());
 		  aImageView = new ImageView(aImage);
-		  bImage = new Image(getClass().getResource("util/Images/obstacle2.png").toString());
+		  bImage = new Image(getClass().getResource("Images/obstacle2.png").toString());
 		  bImageView = new ImageView(bImage);
-		  cImage = new Image(getClass().getResource("util/Images/obstacle3.png").toString());
+		  cImage = new Image(getClass().getResource("Images/obstacle3.png").toString());
 		  cImageView = new ImageView(cImage);
 
 		  overlayImageView.setLayoutX(xPosition);
